@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="formulario">
+        <img src="aire.jpg" alt="image">
+        <h1>INICIA SESION</h1>
+        <form method="post">
+            <div class="username">
+                <input type="text" required>
+                <label>Nombre de Usuario</label>
+                <div class="barra"></div>
+            </div>
+            <div class="contraseña">
+                <input type="password" required>
+                <label>Contraseña</label>
+                <div class="barra"></div>
+            </div>
+            <div class="error-message">
+                <!-- Aquí se mostrarán los mensajes de error -->
+            </div>
+            <div class="recordar">
+                <input type="checkbox" id="recordar">
+                <label for="recordar">Recordarme</label>
+            </div>
+            <actions>
+                <i class="fas fa-lock"></i>
+                <a href="recuperar.html">¿Olvidaste tu contraseña?</a>
+            </actions>
+            <input type="submit" value="iniciar">
+            <div class="registrarse">
+                ¿No tienes cuenta? <br>
+                <i class="fas fa-user-plus"></i>
+                REGÍSTRATE <a href="register.html">AHORA</a>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
